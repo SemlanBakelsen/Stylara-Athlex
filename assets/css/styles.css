@@ -3,8 +3,24 @@ body {
     padding: 0;
 }
 
+/* Title section */
+.title {
+    background-color: #000;
+        background-image: url("../images/star-night.jpg");
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        text-align: center;
+        padding: 100px 0;
+}
+
+.title h1 {
+    font-size: 48px;
+}
+
 /* Style welcome section */
 .welcome-section {
+    backgound-color: #fff;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
