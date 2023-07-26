@@ -70,6 +70,7 @@ body {
 .dropdown-menu li a {
     font-weight: bold;
     color: #000;
+    text-decoration: none;
 }
 
 .show {
