@@ -10,6 +10,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
+    position: relative;
 }
 
 .logo {
@@ -56,10 +57,6 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.show {
-    display: block;
-}
-
 .dropdown-menu ul {
     list-style: none;
     margin: 0;
@@ -68,6 +65,15 @@ body {
 
 .dropdown-menu li {
     margin: 5px 0;
+}
+
+.dropdown-menu li a {
+    font-weight: bold;
+    color: #000;
+}
+
+.show {
+    display: block;
 }
 
 /* Title section */
@@ -88,7 +94,7 @@ body {
 
 /* Style welcome section */
 .welcome-section {
-    backgound-color: #fff;
+    background-color: #fff;
     max-width: 40%;
     margin: 0 auto;
     padding: 20px;
