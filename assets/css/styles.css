@@ -15,21 +15,75 @@ body {
 }
 
 .title h1 {
-    font-size: 48px;
+    font-size: 70px;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.7);
 }
 
 /* Style welcome section */
 .welcome-section {
     backgound-color: #fff;
-    max-width: 800px;
+    max-width: 40%;
     margin: 0 auto;
     padding: 20px;
+    text-align: center;
 }
 
 /*styles for pich*/
 .pitch {
     font-size: 18px;
-    color: #555;
+    color: #000;
     line-height: 1.6;
     margin-bottom: 30px;
+}
+
+
+/* Styles for smaller screen sizes */
+@media (max-width: 1000px) {
+    .welcome-section {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 750px) {
+    .welcome-section {
+        max-width: 60%;
+    }
+
+    .title h1 {
+        font-size: 65px;
+    }
+}
+
+@media (max-width: 500px) {
+    .welcome-section {
+        max-width: 75%;
+    }
+
+    .title h1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 350px) {
+    .welcome-section {
+        max-width: 85%;
+    }
+
+    .title h1 {
+        font-size: 52px
+    }
+
+    .pitch {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 250px) {
+    .welcome-section {
+        max-width: 100%;
+    }
+
+    .pitch {
+        font-size: 15px;
+    }
 }
