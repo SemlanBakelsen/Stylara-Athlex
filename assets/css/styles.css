@@ -3,15 +3,82 @@ body {
     padding: 0;
 }
 
+/* Top Header Styles */
+.top-header {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo {
+
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+}
+
+/* Page buttons list */
+.menu ul {
+    list-style: none;
+    margin: 0;
+    margin-right: 20px;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px 2px;
+    font-weight: bold;
+}
+
+.menu-button {
+    display: none;
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.show {
+    display: block;
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.dropdown-menu li {
+    margin: 5px 0;
+}
+
 /* Title section */
 .title {
     background-color: #000;
-        background-image: url("../images/star-night.jpg");
-        background-size: cover;
-        background-position: center;
-        color: #fff;
-        text-align: center;
-        padding: 100px 0;
+    background-image: url("../images/star-night.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
 }
 
 .title h1 {
@@ -37,6 +104,7 @@ body {
 }
 
 
+
 /* Styles for smaller screen sizes */
 @media (max-width: 1000px) {
     .welcome-section {
@@ -55,6 +123,14 @@ body {
 }
 
 @media (max-width: 500px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
     .welcome-section {
         max-width: 75%;
     }
