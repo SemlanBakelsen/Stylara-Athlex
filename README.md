@@ -1,1 +1,1 @@
-JavaScript for drop down menu taken from https://www.w3schools.com/howto/howto_js_dropdown.asp
+JavaScript for dropdown menu taken from https://www.w3schools.com/howto/howto_js_dropdown.asp
